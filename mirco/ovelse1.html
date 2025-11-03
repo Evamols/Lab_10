@@ -25,7 +25,7 @@
 			<span>Creator: Lauren Schmidt</span>
 			<p>Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.</p>
 
-			<section>
+			<section itemscope>
 				<h5>Genre</h5>
 				<ul>
 					<li>Action</li>
@@ -34,12 +34,16 @@
 				</ul>
 			</section>
 
-			<section>
-				<h5>Stars</h5>
-				<ul>
-					<li>Henry Cavill</li>
-					<li>Anna Shaffer</li>
-					<li>Freya Allen</li>
+			<section itemscope itemtype="https://schema.org/TVSeries">
+				<h5 itemprop="actor" itemscope
+				 itemtype="https://schema.org/PerformanceRole">Stars</h5>
+
+				<ul itemprop="actor"
+				 itemscope itemtype="https://schema.org/Person">
+				 
+					<li itemprop="name">Henry Cavill</li>
+					<li itemprop="name">Anna Shaffer</li>
+					<li itemprop="name">Freya Allen</li>
 				</ul>
 			</section>
 		</main>
